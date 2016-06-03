@@ -15,7 +15,7 @@
   "license": "http://polymer.github.io/LICENSE.txt",
   "ignore": [],
   "dependencies": {
-    "polymer": "polymer/polymer#^1.0.0",
+    "polymer": "polymer/polymer#master",
     "iron-flex-layout": "polymerelements/iron-flex-layout#^1.0.0",
     "iron-media-query": "polymerelements/iron-media-query#^1.0.0",
     "iron-resizable-behavior": "polymerelements/iron-resizable-behavior#^1.0.0",
@@ -28,6 +28,7 @@
     "iron-icons": "polymerelements/iron-icons#^1.0.0",
     "iron-list": "polymerelements/iron-list#^1.0.0",
     "iron-pages": "polymerelements/iron-pages#^1.0.0",
+    "paper-card": "polymerelements/paper-card#^1.0.0",
     "paper-fab": "polymerelements/paper-fab#^1.0.0",
     "paper-icon-button": "polymerelements/paper-icon-button#^1.0.0",
     "paper-item": "polymerelements/paper-item#^1.0.0",
@@ -38,5 +39,8 @@
     "test-fixture": "polymerelements/test-fixture#^1.0.0",
     "webcomponentsjs": "webcomponents/webcomponentsjs#^0.7.0",
     "web-component-tester": "^4.0.0"
+  },
+  "resolutions": {
+    "polymer": "master"
   }
 }
